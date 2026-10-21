@@ -9,7 +9,7 @@ orwon.kr 에 올라가는 오르원 회사 홈페이지입니다.
 
 ## 배포
 
-- Vercel 프로젝트의 Root Directory를 `site`로 두면, 이 저장소의 main에 올린 내용이 자동으로 배포됩니다.
+- 저장소 맨 위의 `vercel.json`이 `site` 폴더를 배포하도록 정해 두어서, Vercel에서 Import할 때 설정을 바꾸지 않아도 됩니다. 이 저장소의 main에 올린 내용은 자동으로 배포됩니다.
 - 도메인 orwon.kr 은 가비아 DNS 관리에서 Vercel이 알려 주는 A 레코드와 CNAME 값으로 연결합니다. 메일(MX) 레코드는 건드리지 않습니다.
 
 ## 제품 제안 폼
